@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik");
+
+/* specific logo class */
+
+.Header-branding-logo {
+    overflow: hidden;
+    padding: 26px 20px;
+    background-image: url('https://static1.squarespace.com/static/5c78a3aef8135a37c6277586/t/5cb4bcb9f4e1fc5ea7ba415e/1593559347890/?format=1500w');
+    background-repeat: no-repeat;
+    background-size: 154px 26px;
+}
+
+
+/* standard html elements */
+
+html {
+    font-weight: 400 !important;
+    line-height: 1.15;
+    text-size-adjust: 100%;
+}
+
+body {
+    padding: 12px;
+    color: rgb(37, 51, 56);
+    font-family: Rubik;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+h1 {
+    font-size: 29.0304px;
+    line-height: 37.5944px;
+    max-width: 100%;
+    font-weight: 700;
+    display: block;
+}
+
+h2 {
+    font-size: 24.192px;
+    line-height: 31.3286px;
+    max-width: 100%;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 20.16px;
+    line-height: 26.1072px;
+    font-weight: 700;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+p {
+    font-size: 14px;
+    line-height: 24px;
+    color: rgb(37, 51, 56);
+    display: block;
+}
+
+blockquote {
+    background-color: rgb(243, 245, 253);
+    margin-left: 0px;
+    margin-right: 0px;
+    border-width: 1px 1px 1px 8px;
+    border-style: solid;
+    border-color: rgb(217, 223, 248);
+    border-image: initial;
+    border-left: 8px solid rgb(217, 223, 248);
+    padding: 0px 16px;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+li {
+    display: list-item;
+}
+
+table {
+    border-collapse: separate;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(217, 223, 248);
+    border-image: initial;
+    border-radius: 5px;
+    border-spacing: 0px;
+    overflow: hidden;
+    display: table;
+}
+
+thead {
+    background-color: rgb(243, 245, 253);
+    margin: 0px;
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+th {
+    font-weight: bold;
+    text-align: left;
+    font-size: 14px;
+    border-bottom: 1px solid rgb(217, 223, 248);
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+    padding: 8px;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+    padding: 8px;
+    font-size: 14px;
+    line-height: 24px;
+}
